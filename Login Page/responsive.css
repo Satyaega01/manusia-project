@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  .containerlogin {
+    flex-direction: column-reverse;
+  }
+
+  main .containerlogin .imglogin img {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 850px) {
+  .containerlogin {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main .containerlogin .imglogin img {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+}
